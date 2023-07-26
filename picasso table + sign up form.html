@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>picasso table and sign up form</title>
+</head>
+<body>
+    <table border="1" width="50%" height="200px">
+        <tr height="50%">
+            <th width="25%"></th>
+            <th width="25%"></th>
+            <th colspan="2" width="50"></th>    
+        </tr>
+
+        <tr height="25%">
+            <th rowspan="2" colspan="2"></th>
+            <th colspan="2"></th>
+              
+        </tr>
+        <tr height="25%">
+            <th colspan="2"></th>    
+        </tr>
+    </table>
+    <br><br><br><br><br><br>
+    <form action="#">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="salutation">Salutation:</label>
+            <br>
+            <select id="salutation" name="salutation">
+                <option value="mr">Monsieur</option>
+                <option value="mme">Madame</option>
+            </select>
+            <br><br>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname">
+            <br><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname">
+            <br><br>
+            <label>Gender :</label>
+            <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female"><label for="female">female</label>
+            <br><br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="dateofbirth">Date of birth :</label>
+            <input type="date" id="dateofbirth" name="dateofbirth">
+            <br><br>
+            <label for="address">Address :</label>
+            <br>
+            <textarea rows="4" cols="30"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
